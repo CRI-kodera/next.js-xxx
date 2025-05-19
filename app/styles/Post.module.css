@@ -1,0 +1,12 @@
+/* ファイル名がパスカル統一でないのは、「.module」にすることでローカルスコープとなるため。 */
+/* 独自のCSSはその仕様に沿って作成する */
+.imageArea {
+  margin-top: 15px;
+  border: 1px solid #000;
+}
+
+.photo {
+  width: auto;
+  height: 200px;
+  margin: 0 auto;
+}

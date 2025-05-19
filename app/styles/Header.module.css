@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 8px;
+  font-size: 16px;
+  font-weight: bold;
+  border: 1px solid #000;
+}
+
+.icon {
+  width: 35px;
+  height: 35px;
+  padding: 5px;
+  border: 1px solid #000;
+  background-color: yellow;
+  border-radius: 50%;
+}
