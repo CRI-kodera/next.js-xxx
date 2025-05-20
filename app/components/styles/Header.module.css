@@ -1,12 +1,18 @@
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
   display: flex;
   justify-content: left;
   align-items: center;
   gap: 10px;
+  width: 100%;
   padding: 16px 8px;
   font-size: 16px;
   font-weight: bold;
   border: 1px solid #000;
+  z-index: 100;
+  background-color: #fff;
 }
 
 .icon {
@@ -14,6 +20,6 @@
   height: 35px;
   padding: 5px;
   border: 1px solid #000;
-  background-color: yellow;
+  background-color: #ffff7f;
   border-radius: 50%;
 }

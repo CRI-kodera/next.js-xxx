@@ -1,0 +1,30 @@
+.wrap {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photoArea {
+    border: 1px solid #333;
+    border-radius: 15px;
+    padding: 50px 100px;
+}
+
+.icon {
+    margin: 0 auto;
+    width: 100px;
+    height: auto;
+}
+
+.text {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.fileInput {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
