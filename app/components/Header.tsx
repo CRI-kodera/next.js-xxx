@@ -12,7 +12,7 @@ export default function Header() {
           ・詳細画面の場合
           　選択された画像に紐づくユーザーアイコンとユーザー名を表示する
         */}
-        <img src="/onsen.png" alt="アイコン" className={styles.icon} /> 
+        <img src="/onsen.png" alt="アイコン" className={styles.headerIcon} /> 
         <span>テキストテキストテキスト</span>
     </header>
   );

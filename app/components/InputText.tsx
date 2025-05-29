@@ -1,9 +1,15 @@
-import styles from './styles/InputText.module.css';
+'use client';
 
-export default function InputText() {
+import styles from './styles/InputText.module.css';
+import { forwardRef } from 'react';
+
+
+const TextArea = forwardRef<HTMLDivElement>((_, ref) => {
   return (
-    <section className={styles.textArea}>
-        <input type="text" />
-    </section>
+    <div className={styles.textArea} ref={ref}>
+      <textarea className={styles.textBox} placeholder="コメントを入力…" />
+    </div>
   );
-}
+});
+
+export default TextArea;

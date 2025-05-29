@@ -11,7 +11,7 @@
     padding: 50px 100px;
 }
 
-.icon {
+.photoIcon {
     margin: 0 auto;
     width: 100px;
     height: auto;
@@ -27,4 +27,15 @@
     position: absolute;
     top: 0;
     left: 0;
+}
+
+.previewPhoto {
+
+}
+
+.nextButton {
+    position: fixed;
+    bottom: 100px;
+    width: 50px;
+    cursor: pointer;
 }

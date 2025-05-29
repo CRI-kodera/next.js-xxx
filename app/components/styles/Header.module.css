@@ -15,11 +15,10 @@
   background-color: #fff;
 }
 
-.icon {
+.headerIcon {
   width: 35px;
   height: 35px;
   padding: 5px;
   border: 1px solid #000;
-  background-color: #ffff7f;
   border-radius: 50%;
 }
