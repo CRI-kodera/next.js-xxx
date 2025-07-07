@@ -6,6 +6,7 @@ import { useState } from 'react';
 export default function AddPhoto({ scrollToText }: { scrollToText: () => void }) {
 
   const [preview, setPreview] = useState<string | null>(null);
+
   const imageChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
 
@@ -14,6 +15,7 @@ export default function AddPhoto({ scrollToText }: { scrollToText: () => void })
       setPreview(imageUrl);
     }
   };
+  
   const moveToNext = () => {
 
   }
